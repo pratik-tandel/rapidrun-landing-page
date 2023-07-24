@@ -1,0 +1,15 @@
+{
+  "name": "rapidrun-landing-page",
+  "version": "1.0.0",
+  "description": "Landing page for a logistics company that allows users to easily calculate the cost of their freight.",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss:start": "sass --watch ./assets/scss/style.scss style.css"
+  },
+  "author": "Pratik Tandel",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.3.0"
+  }
+}
