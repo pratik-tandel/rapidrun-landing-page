@@ -1,0 +1,21 @@
+/****************
+=> Theme-colors
+****************/
+$primary: #ffce33; // Primary color
+$secondary: #131721;
+$white: #ffffff;
+
+/****************
+=> Body
+****************/
+// Settings for the `<body>` element.
+$body-bg: #f9f8ec;
+
+/*******************************
+=> config Bootstrap styling
+*******************************/
+$theme-colors: (
+    "primary": $primary,
+    "secondary": $secondary,
+    "white": $white
+);
