@@ -8,17 +8,44 @@
     </head>
     <body>
         <!-- Header -->
-        <header>
+        <header class="header">
             <!-- Navigation -->
-            <nav>
-                <span>RapidRun</span>
-                <ul>
-                    <li>Home</li>
-                    <li>Logistic Solutions</li>
-                    <li>Platform</li>
-                    <li>Resources</li>
-                    <li>Get Started</li>
-                </ul>
+            <nav class="navbar d-flex justify-content-between">
+                <div class="d-flex align-content-center">
+                    <figure class="figure mb-0">
+                        <img class="figure-img brand-logo mb-0"
+                            src="./assets/img/rapidrun-logo.svg"
+                            alt="rapidrun logo">
+                    </figure>
+                    <span class="ms-2 align-self-center text-bold">Rapidrun</span>
+                </div>
+                <div class="d-flex">
+                    <ul class="navbar-nav d-flex flex-row gap-5">
+                        <li class="nav-item">
+                            <a class="nav-link text-secondary"
+                                aria-current="page"
+                                href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-secondary"
+                                aria-current="page"
+                                href="#logistics">Logistic Solutions</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-secondary"
+                                aria-current="page"
+                                href="#platform">Platform</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-secondary"
+                                aria-current="page"
+                                href="#resources">Resources</a>
+                        </li>
+                    </ul>
+                    <button class="btn btn-secondary btn-get-started" type="button">Get
+                        Started</button>
+                </div>
+
             </nav>
             <!-- /Navigation -->
         </header>
