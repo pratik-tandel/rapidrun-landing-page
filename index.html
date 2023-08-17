@@ -8,7 +8,7 @@
     </head>
     <body>
         <!-- Header -->
-        <header class="header">
+        <header class="header bg-primary">
             <!-- Navigation -->
             <nav class="navbar d-flex justify-content-between">
                 <div class="d-flex align-content-center">
@@ -42,10 +42,10 @@
                                 href="#resources">Resources</a>
                         </li>
                     </ul>
-                    <button class="btn btn-secondary btn-get-started" type="button">Get
+                    <button class="btn btn-secondary btn-get-started"
+                        type="button">Get
                         Started</button>
                 </div>
-
             </nav>
             <!-- /Navigation -->
         </header>
@@ -54,10 +54,11 @@
         <!-- Main Content -->
         <main>
             <!-- Intro Section -->
-            <section>
-                <div>
-                    <h1>Hassle free Shipping and Logistics</h1>
-                    <p>Rapidrun list is the leading source for the maritime
+            <section class="intro-section bg-primary">
+                <div class="intro mt-2">
+                    <h1 class="intro__title">Hassle free Shipping and Logistics</h1>
+                    <p class="intro__description mt-5">Rapidrun list is the
+                        leading source for the maritime
                         industry
                         covering all sectors of the shipping including tankers</p>
                 </div>
@@ -65,53 +66,55 @@
             <!-- /Intro Section -->
 
             <!-- Logistic Solutions Section -->
-            <section>
+            <section class="logistic-solution-section">
                 <!-- Deliver Product Form -->
-                <div>
-                    <p>Deliver a product</p>
-                    <form>
+                <div class="bg-secondary text-white">
+                    <!-- <p>Deliver a product</p> -->
+                    <form class="d-flex gap-4">
                         <!-- From -->
-                        <div>
+                        <!-- <div class="d-flex flex-column">
                             <label for="from">From</label>
                             <select name="from" id="from">
                                 <option value="North pool">North pool</option>
                                 <option value="South pool">South pool</option>
                             </select>
-                        </div>
+                        </div> -->
                         <!-- /From -->
                         <!-- To -->
-                        <div>
+                        <!-- <div class="d-flex flex-column">
                             <label for="to">To</label>
                             <select name="to" id="to">
                                 <option value="South Dakota">South Dakota</option>
                                 <option value="North Dakota">North Dakota</option>
                             </select>
-                        </div>
+                        </div> -->
                         <!-- Shipping -->
-                        <div>
+                        <!-- <div class="d-flex flex-column">
                             <label for="shipping">What are you shipping</label>
                             <select name="shipping" id="shipping">
                                 <option value="Choose">Choose</option>
                                 <option value="Electronics">Electronics</option>
                             </select>
-                        </div>
+                        </div> -->
                         <!-- /Shipping -->
                         <!-- Calculate -->
-                        <div>
+                        <!-- <div class="d-flex flex-column">
                             <label for="calculate">Calculate</label>
                             <select name="calculate" id="calculate">
                                 <option value="12">12 kg</option>
                                 <option value="20">20 kg</option>
                             </select>
-                        </div>
+                        </div> -->
                         <!-- /Calculate -->
-                        <button>Search</button>
+                        <!-- <button>Search</button> -->
                     </form>
                 </div>
                 <!-- Logistic Solutions Intro -->
-                <div>
-                    <h2>The Safest Shipping Service In USA</h2>
-                    <p>
+                <div
+                    class="solutions-intro d-flex flex-row justify-content-between">
+                    <h2 class="solutions-intro__title">The Safest Shipping
+                        Service In USA</h2>
+                    <p class="solutions-intro__description">
                         Rapidrun List is the leading source for the maritime
                         industry covering
                         all sectors of the shipping including tankers,
@@ -120,18 +123,33 @@
                 </div>
                 <!-- /Logistic Solutions Intro -->
                 <!-- Features -->
-                <div>
-                    <div>
+                <div class="d-flex">
+                    <div class="card">
+                        <figure class="figure">
+                            <img src="./assets/img/box-logo.PNG"
+                                class="figure-img img-fluid"
+                                alt="box">
+                        </figure>
                         <span>Easy Shipment</span>
                         <p>Shipping Easy provides the simplest online shipping
                             app is here</p>
                     </div>
-                    <div>
+                    <div class="card">
+                        <figure class="figure">
+                            <img src="./assets/img/bag-logo.PNG"
+                                class="figure-img img-fluid"
+                                alt="box">
+                        </figure>
                         <span>Cheap Price</span>
                         <p>Shipping Easy provides the simplest online shipping
                             app is here</p>
                     </div>
-                    <div>
+                    <div class="card">
+                        <figure class="figure">
+                            <img src="./assets/img/truck-logo.PNG"
+                                class="figure-img img-fluid"
+                                alt="box">
+                        </figure>
                         <span>Secure Delivery</span>
                         <p>Shipping Easy provides the simplest online shipping
                             app is here</p>
@@ -142,30 +160,40 @@
                     <!-- Intro Video Section -->
                     <h2>We Get Your Goods
                         On The Way!</h2>
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe width="560" height="315"
+                            src="https://www.youtube.com/embed/cXUH1_Z77Sk"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen></iframe>
+                    </div>
                     <video></video>
                     <!-- Intro Video Section -->
                     <!-- Achievements -->
                     <h2>Our Achievements Made Us Well Known Through</h2>
-                    <div>
+                    <div class="d-flex">
                         <div>
-                            <div>
-                                <span>200+</span>
-                                <span>Daily Shipments</span>
+                            <div class="achievement-card">
+                                <span class="achievement-card__count">200+</span>
+                                <span class="achievement-card__title">Daily
+                                    Shipments</span>
                             </div>
-                            <div>
-                                <span>450</span>
-                                <span>Trusted Clients</span>
+                            <div class="achievement-card">
+                                <span class="achievement-card__count">450</span>
+                                <span class="achievement-card__title">Trusted
+                                    Clients</span>
                             </div>
                         </div>
-                        <img src alt>
+                        <img src="./assets/img/container.PNG">
                         <div>
-                            <div>
-                                <span>78</span>
-                                <span>Office Brunch</span>
+                            <div class="achievement-card">
+                                <span class="achievement-card__count">78</span>
+                                <span class="achievement-card__title">Office
+                                    Brunch</span>
                             </div>
-                            <div>
-                                <span>62+</span>
-                                <span>Awards</span>
+                            <div class="achievement-card">
+                                <span class="achievement-card__count">62+</span>
+                                <span class="achievement-card__title">Awards</span>
                             </div>
                         </div>
                     </div>
@@ -176,29 +204,45 @@
             <!-- /Logistic Solutions Section -->
 
             <!-- Platform Section -->
-            <section>
-                <div>
+            <section class="platform-section">
+                <div class="d-flex justify-content-between">
                     <h2>We Serve More Than
                         9+ Countries</h2>
                     <button>View Countries</button>
                 </div>
                 <!-- Countries -->
-                <div>
-                    <div>
-                        <img src alt>
-                        <span>Ukraine</span>
+                <div class="countries d-flex">
+                    <div class="countries__card">
+                        <figure class="figure">
+                            <img src="./assets/img/Flag-Ukraine.webp"
+                                class="countries__card-img figure-img img-fluid"
+                                alt="box">
+                        </figure>
+                        <span class="countries__card-title">Ukraine</span>
                     </div>
-                    <div>
-                        <img src alt>
-                        <span>China</span>
+                    <div class="countries__card">
+                        <figure class="figure">
+                            <img src="./assets/img/Flag-India.webp"
+                                class="countries__card-img figure-img img-fluid"
+                                alt="box">
+                        </figure>
+                        <span class="countries__card-title">India</span>
                     </div>
-                    <div>
-                        <img src alt>
-                        <span>Europe</span>
+                    <div class="countries__card">
+                        <figure class="figure">
+                            <img src="./assets/img/Flag-France.webp"
+                                class="countries__card-img figure-img img-fluid"
+                                alt="box">
+                        </figure>
+                        <span class="countries__card-title">France</span>
                     </div>
-                    <div>
-                        <img src alt>
-                        <span>Brazil</span>
+                    <div class="countries__card">
+                        <figure class="figure">
+                            <img src="./assets/img/Flag-Brazil.webp"
+                                class="countries__card-img figure-img img-fluid"
+                                alt="box">
+                        </figure>
+                        <span class="countries__card-title">Brazil</span>
                     </div>
                 </div>
                 <!-- /Countries -->
@@ -206,8 +250,8 @@
             <!-- /Platform Section -->
 
             <!-- Resources -->
-            <section>
-                <div>
+            <section class="resource-section">
+                <div class="d-flex justify-content-around">
                     <h3>Global Shipment News</h3>
                     <p>
                         Lloyd's List is the leading source for the maritime
@@ -217,24 +261,25 @@
                     </p>
                 </div>
                 <div>
-                    <div>
-                        <img src alt>
+                    <div class="resources d-flex">
                         <!-- Resource -->
-                        <div>
+                        <div class="resource__card">
+                            <img class="resource__card-img"
+                                src="./assets/img/resource-one.PNG" alt>
                             <div>
-                                <span>Easy Shipment World Wide</span>
-                                <span>January 5th, 2023-by Redfang</span>
+                                <p>Easy Shipment World Wide</p>
+                                <p>January 5th, 2023-by Redfang</p>
                             </div>
-                            <img src alt>
                         </div>
                         <!-- /Resource -->
                         <!-- Resource -->
-                        <div>
+                        <div class="resource__card">
+                            <img class="resource__card-img"
+                                src="./assets/img/resource-two.PNG" alt>
                             <div>
-                                <span>People Are Now Shipping With Joy</span>
-                                <span>January 5th, 2023-by Redfang</span>
+                                <p>People Are Now Shipping With Joy</p>
+                                <p>January 5th, 2023-by Redfang</p>
                             </div>
-                            <img src alt>
                         </div>
                         <!-- /Resource -->
                     </div>
@@ -246,8 +291,8 @@
         <!-- Main /Content -->
 
         <!-- Footer -->
-        <footer>
-            <div>
+        <footer class="bg-primary">
+            <div class="d-flex">
                 <!-- NewsLetter -->
                 <div>
                     <span>NEWSLETTER</span>

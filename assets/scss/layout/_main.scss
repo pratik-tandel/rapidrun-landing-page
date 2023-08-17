@@ -1,0 +1,39 @@
+.intro-section {
+    padding: 10px 60px;
+    background-image: url('./assets/img/plane.png');
+    background-size: cover;
+    height: 500px;
+}
+
+.intro {
+    max-width: 500px;
+
+    &__title {
+        font-size: 7rem;
+    }
+}
+
+.logistic-solution-section {
+    padding: 10px 60px;
+}
+
+.solutions-intro {
+    &__title {
+        width: 300px;
+    }
+
+    &__description {
+        width: 400px;
+    }
+}
+
+.platform-section {
+    padding: 10px 60px;
+}
+
+.resource-section {
+    padding: 10px 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

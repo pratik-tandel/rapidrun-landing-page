@@ -1,0 +1,34 @@
+.card {
+    padding: 10px 20px;
+}
+
+.achievement-card {
+    display: flex;
+    flex-direction: column;
+
+    &__count {
+        font-size: ($font-size-lg * 1.5);
+        font-weight: $font-weight-bold;
+    }
+
+    &__title {
+        font-weight: $font-weight-medium;
+    }
+}
+
+.countries__card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    border: 1px solid $secondary;
+
+    &-img {
+        border-radius: 50%;
+    }
+}
+
+.resource__card {
+    border: 1px solid $secondary;
+}
