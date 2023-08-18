@@ -1,39 +1,107 @@
 .intro-section {
-    padding: 10px 60px;
+    padding: 1rem 6rem;
     background-image: url('./assets/img/plane.png');
     background-size: cover;
-    height: 500px;
+    height: 50rem;
 }
 
 .intro {
-    max-width: 500px;
+    max-width: 60rem;
 
     &__title {
-        font-size: 7rem;
+        font-size: 9rem;
+    }
+
+    &__description {
+        font-size: 2rem;
+        text-align: start;
     }
 }
 
 .logistic-solution-section {
-    padding: 10px 60px;
+    padding: 1rem 6rem;
+}
+
+.features {
+    padding-bottom: 10rem;
 }
 
 .solutions-intro {
+    padding-top: 20rem;
+    padding-bottom: 5rem;
+
     &__title {
-        width: 300px;
+        width: 50rem;
+        font-size: 4rem;
     }
 
     &__description {
-        width: 400px;
+        width: 47rem;
+        font-size: 2rem;
+        text-align: start;
     }
 }
 
 .platform-section {
-    padding: 10px 60px;
+    padding: 1rem 6rem;
+    padding-bottom: 8rem;
+}
+
+.platform__heading {
+    width: 35rem;
 }
 
 .resource-section {
-    padding: 10px 60px;
+    padding: 1rem 6rem;
+    padding-bottom: 8rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
+
+    &__intro {
+        padding-bottom: 2rem;
+    }
+
+    &__title {
+        width: 40rem;
+        font-size: 4rem;
+    }
+
+    &__description {
+        width: 36rem;
+        text-align: start;
+    }
+}
+
+.resources {
+    padding-bottom: 5rem;
+}
+
+.intro-video {
+    &__heading {
+        width: 40rem;
+        font-size: 4rem;
+        padding-bottom: 2rem;
+    }
+
+    &__player {
+        height: 60rem;
+        padding-bottom: 10rem;
+    }
+}
+
+.achievements {
+    padding-bottom: 5rem;
+
+    &__heading {
+        font-size: 4rem;
+        width: 52rem;
+        text-align: center;
+    }
+
+    &__img {
+        margin: 0 15rem;
+        height: 35rem;
+        width: 50rem;
+    }
 }

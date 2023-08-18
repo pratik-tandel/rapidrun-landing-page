@@ -1,0 +1,50 @@
+.footer {
+    padding: 6rem 6rem 0 6rem;
+}
+
+.newsletter {
+    width: 54rem;
+    padding-bottom: 3rem;
+
+    &__title {
+        font-size: ($font-size-lg * 4);
+        font-weight: $font-weight-normal;
+        padding-bottom: 3rem;
+        margin-top: -1rem;
+    }
+
+    &__description {
+        width: 43rem;
+        font-size: $font-size-xs;
+        padding-bottom: 2rem;
+    }
+
+    &__form {
+        &-input {
+            background-color: $primary;
+            color: $secondary;
+            padding-top: 1rem;
+            padding-bottom: 1rem;
+            border: none;
+            border-bottom: 1px solid $secondary;
+            margin-bottom: 2rem;
+
+            &::placeholder {
+                color: $secondary;
+            }
+        }
+    }
+}
+
+.footer__link {
+    &-header {
+        font-weight: $font-weight-bold;
+        font-size: $font-size-base;
+        padding-bottom: 2rem;
+    }
+
+    &-title {
+        font-weight: $font-weight-normal;
+        font-size: $font-size-base;
+    }
+}

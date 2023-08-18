@@ -2,12 +2,32 @@
     padding: 10px 20px;
 }
 
+.feature__card {
+    padding: 4rem 3rem;
+
+    &-title {
+        font-weight: $font-weight-bold;
+        padding-bottom: 1rem;
+    }
+
+    &-description {
+        font-weight: $font-weight-medium;
+    }
+}
+
 .achievement-card {
     display: flex;
     flex-direction: column;
+    border-top: 0px;
+    border-right: 0px;
+    border-left: 1px;
+    border-bottom: 1px;
+    border-style: solid;
+    border-color: $secondary;
+    padding: 2rem 2rem;
 
     &__count {
-        font-size: ($font-size-lg * 1.5);
+        font-size: ($font-size-lg * 2);
         font-weight: $font-weight-bold;
     }
 
@@ -21,14 +41,31 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 23%;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
 
     border: 1px solid $secondary;
 
     &-img {
+        width: 6rem;
+        height: 6rem;
         border-radius: 50%;
     }
 }
 
 .resource__card {
     border: 1px solid $secondary;
+    padding: 1rem;
+
+    &-img {
+        width: 67rem;
+        padding-bottom: 1rem;
+    }
+
+    &-title {
+        font-size: 2rem;
+        font-weight: $font-weight-bold;
+        margin-bottom: 0;
+    }
 }

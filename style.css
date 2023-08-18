@@ -11572,18 +11572,53 @@ textarea.form-control-lg {
 }
 .btn-get-started {
   margin-left: 70px;
+  width: 15rem;
+  height: 5rem;
+}
+
+.btn-platform {
+  height: 5rem;
+}
+
+.btn-resources {
+  height: 5rem;
+  width: 15rem;
+  align-self: center;
+}
+
+.btn-subscribe {
+  height: 5rem;
+  width: 15rem;
 }
 
 .card {
   padding: 10px 20px;
 }
 
+.feature__card {
+  padding: 4rem 3rem;
+}
+.feature__card-title {
+  font-weight: 700;
+  padding-bottom: 1rem;
+}
+.feature__card-description {
+  font-weight: 600;
+}
+
 .achievement-card {
   display: flex;
   flex-direction: column;
+  border-top: 0px;
+  border-right: 0px;
+  border-left: 1px;
+  border-bottom: 1px;
+  border-style: solid;
+  border-color: #131721;
+  padding: 2rem 2rem;
 }
 .achievement-card__count {
-  font-size: 2.7rem;
+  font-size: 3.6rem;
   font-weight: 700;
 }
 .achievement-card__title {
@@ -11595,14 +11630,29 @@ textarea.form-control-lg {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 23%;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
   border: 1px solid #131721;
 }
 .countries__card-img {
+  width: 6rem;
+  height: 6rem;
   border-radius: 50%;
 }
 
 .resource__card {
   border: 1px solid #131721;
+  padding: 1rem;
+}
+.resource__card-img {
+  width: 67rem;
+  padding-bottom: 1rem;
+}
+.resource__card-title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 0;
 }
 
 @font-face {
@@ -11626,11 +11676,11 @@ textarea.form-control-lg {
 }
 
 .header {
-  padding: 10px 60px;
+  padding: 1rem 6rem;
 }
 
 .brand-logo {
-  height: 40px;
+  height: 4rem;
 }
 
 .nav-link {
@@ -11639,39 +11689,141 @@ textarea.form-control-lg {
 }
 
 .intro-section {
-  padding: 10px 60px;
+  padding: 1rem 6rem;
   background-image: url("./assets/img/plane.png");
   background-size: cover;
-  height: 500px;
+  height: 50rem;
 }
 
 .intro {
-  max-width: 500px;
+  max-width: 60rem;
 }
 .intro__title {
-  font-size: 7rem;
+  font-size: 9rem;
+}
+.intro__description {
+  font-size: 2rem;
+  text-align: start;
 }
 
 .logistic-solution-section {
-  padding: 10px 60px;
+  padding: 1rem 6rem;
 }
 
+.features {
+  padding-bottom: 10rem;
+}
+
+.solutions-intro {
+  padding-top: 20rem;
+  padding-bottom: 5rem;
+}
 .solutions-intro__title {
-  width: 300px;
+  width: 50rem;
+  font-size: 4rem;
 }
 .solutions-intro__description {
-  width: 400px;
+  width: 47rem;
+  font-size: 2rem;
+  text-align: start;
 }
 
 .platform-section {
-  padding: 10px 60px;
+  padding: 1rem 6rem;
+  padding-bottom: 8rem;
+}
+
+.platform__heading {
+  width: 35rem;
 }
 
 .resource-section {
-  padding: 10px 60px;
+  padding: 1rem 6rem;
+  padding-bottom: 8rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+.resource-section__intro {
+  padding-bottom: 2rem;
+}
+.resource-section__title {
+  width: 40rem;
+  font-size: 4rem;
+}
+.resource-section__description {
+  width: 36rem;
+  text-align: start;
+}
+
+.resources {
+  padding-bottom: 5rem;
+}
+
+.intro-video__heading {
+  width: 40rem;
+  font-size: 4rem;
+  padding-bottom: 2rem;
+}
+.intro-video__player {
+  height: 60rem;
+  padding-bottom: 10rem;
+}
+
+.achievements {
+  padding-bottom: 5rem;
+}
+.achievements__heading {
+  font-size: 4rem;
+  width: 52rem;
+  text-align: center;
+}
+.achievements__img {
+  margin: 0 15rem;
+  height: 35rem;
+  width: 50rem;
+}
+
+.footer {
+  padding: 6rem 6rem 0 6rem;
+}
+
+.newsletter {
+  width: 54rem;
+  padding-bottom: 3rem;
+}
+.newsletter__title {
+  font-size: 7.2rem;
+  font-weight: 400;
+  padding-bottom: 3rem;
+  margin-top: -1rem;
+}
+.newsletter__description {
+  width: 43rem;
+  font-size: 1.2rem;
+  padding-bottom: 2rem;
+}
+.newsletter__form-input {
+  background-color: #ffce33;
+  color: #131721;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border: none;
+  border-bottom: 1px solid #131721;
+  margin-bottom: 2rem;
+}
+.newsletter__form-input::placeholder {
+  color: #131721;
+}
+
+.footer__link-header {
+  font-weight: 700;
+  font-size: 1.6rem;
+  padding-bottom: 2rem;
+}
+.footer__link-title {
+  font-weight: 400;
+  font-size: 1.6rem;
 }
 
 /*# sourceMappingURL=style.css.map */

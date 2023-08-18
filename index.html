@@ -123,77 +123,86 @@
                 </div>
                 <!-- /Logistic Solutions Intro -->
                 <!-- Features -->
-                <div class="d-flex">
-                    <div class="card">
+                <div class="features d-flex gap-4">
+                    <div class="card feature__card">
                         <figure class="figure">
                             <img src="./assets/img/box-logo.PNG"
-                                class="figure-img img-fluid"
+                                class="figure-img img-fluid feature__card-img"
                                 alt="box">
                         </figure>
-                        <span>Easy Shipment</span>
-                        <p>Shipping Easy provides the simplest online shipping
+                        <span class="feature__card-title">Easy Shipment</span>
+                        <p class="feature__card-description">Shipping Easy
+                            provides the simplest online shipping
                             app is here</p>
                     </div>
-                    <div class="card">
+                    <div class="card feature__card">
                         <figure class="figure">
                             <img src="./assets/img/bag-logo.PNG"
-                                class="figure-img img-fluid"
+                                class="figure-img img-fluid feature__card-img"
                                 alt="box">
                         </figure>
-                        <span>Cheap Price</span>
-                        <p>Shipping Easy provides the simplest online shipping
+                        <span class="feature__card-title">Cheap Price</span>
+                        <p class="feature__card-description">Shipping Easy
+                            provides the simplest online shipping
                             app is here</p>
                     </div>
-                    <div class="card">
+                    <div class="card feature__card">
                         <figure class="figure">
-                            <img src="./assets/img/truck-logo.PNG"
-                                class="figure-img img-fluid"
+                            <img src="./assets/img/box-logo.PNG"
+                                class="figure-img img-fluid feature__card-img"
                                 alt="box">
                         </figure>
-                        <span>Secure Delivery</span>
-                        <p>Shipping Easy provides the simplest online shipping
+                        <span class="feature__card-title">Secure Delivery</span>
+                        <p class="feature__card-description">Shipping Easy
+                            provides the simplest online shipping
                             app is here</p>
                     </div>
                 </div>
                 <!-- /Features -->
-                <div>
+                <div class="intro-video-section">
                     <!-- Intro Video Section -->
-                    <h2>We Get Your Goods
+                    <h2 class="intro-video__heading">We Get Your Goods
                         On The Way!</h2>
-                    <div class="embed-responsive embed-responsive-16by9">
-                        <iframe width="560" height="315"
+                    <div
+                        class="embed-responsive embed-responsive-16by9 intro-video__player d-flex">
+                        <iframe class="flex-grow-1"
                             src="https://www.youtube.com/embed/cXUH1_Z77Sk"
                             title="YouTube video player" frameborder="0"
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                             allowfullscreen></iframe>
                     </div>
-                    <video></video>
                     <!-- Intro Video Section -->
                     <!-- Achievements -->
-                    <h2>Our Achievements Made Us Well Known Through</h2>
-                    <div class="d-flex">
-                        <div>
-                            <div class="achievement-card">
-                                <span class="achievement-card__count">200+</span>
-                                <span class="achievement-card__title">Daily
-                                    Shipments</span>
+                    <div
+                        class="achievements d-flex flex-column justify-content-center align-items-center">
+                        <h2 class="achievements__heading">Our Achievements Made
+                            Us Well Known Through</h2>
+                        <div
+                            class="d-flex flex-grow-1 justify-content-center align-items-center">
+                            <div class=>
+                                <div class="achievement-card">
+                                    <span class="achievement-card__count">200+</span>
+                                    <span class="achievement-card__title">Daily
+                                        Shipments</span>
+                                </div>
+                                <div class="achievement-card">
+                                    <span class="achievement-card__count">450</span>
+                                    <span class="achievement-card__title">Trusted
+                                        Clients</span>
+                                </div>
                             </div>
-                            <div class="achievement-card">
-                                <span class="achievement-card__count">450</span>
-                                <span class="achievement-card__title">Trusted
-                                    Clients</span>
-                            </div>
-                        </div>
-                        <img src="./assets/img/container.PNG">
-                        <div>
-                            <div class="achievement-card">
-                                <span class="achievement-card__count">78</span>
-                                <span class="achievement-card__title">Office
-                                    Brunch</span>
-                            </div>
-                            <div class="achievement-card">
-                                <span class="achievement-card__count">62+</span>
-                                <span class="achievement-card__title">Awards</span>
+                            <img src="./assets/img/container.PNG"
+                                class="achievements__img">
+                            <div>
+                                <div class="achievement-card">
+                                    <span class="achievement-card__count">78</span>
+                                    <span class="achievement-card__title">Office
+                                        Brunch</span>
+                                </div>
+                                <div class="achievement-card">
+                                    <span class="achievement-card__count">62+</span>
+                                    <span class="achievement-card__title">Awards</span>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -205,13 +214,15 @@
 
             <!-- Platform Section -->
             <section class="platform-section">
-                <div class="d-flex justify-content-between">
-                    <h2>We Serve More Than
+                <div
+                    class="d-flex justify-content-between align-items-center pb-4">
+                    <h2 class="platform__heading">We Serve More Than
                         9+ Countries</h2>
-                    <button>View Countries</button>
+                    <button class="btn btn-secondary btn-platform">View
+                        Countries</button>
                 </div>
                 <!-- Countries -->
-                <div class="countries d-flex">
+                <div class="countries d-flex justify-content-between gap-5">
                     <div class="countries__card">
                         <figure class="figure">
                             <img src="./assets/img/Flag-Ukraine.webp"
@@ -251,9 +262,10 @@
 
             <!-- Resources -->
             <section class="resource-section">
-                <div class="d-flex justify-content-around">
-                    <h3>Global Shipment News</h3>
-                    <p>
+                <div
+                    class="resource-section__intro d-flex justify-content-between">
+                    <h3 class="resource-section__title">Global Shipment News</h3>
+                    <p class="resource-section__description">
                         Lloyd's List is the leading source for the maritime
                         industry covering all sectors of the shipping including
                         tankers,
@@ -261,14 +273,16 @@
                     </p>
                 </div>
                 <div>
-                    <div class="resources d-flex">
+                    <div class="resources d-flex justify-content-center gap-4">
                         <!-- Resource -->
                         <div class="resource__card">
                             <img class="resource__card-img"
                                 src="./assets/img/resource-one.PNG" alt>
                             <div>
-                                <p>Easy Shipment World Wide</p>
-                                <p>January 5th, 2023-by Redfang</p>
+                                <p class="resource__card-title">Easy Shipment
+                                    World Wide</p>
+                                <p class="resource__card-date">January 5th,
+                                    2023-by Redfang</p>
                             </div>
                         </div>
                         <!-- /Resource -->
@@ -277,64 +291,114 @@
                             <img class="resource__card-img"
                                 src="./assets/img/resource-two.PNG" alt>
                             <div>
-                                <p>People Are Now Shipping With Joy</p>
-                                <p>January 5th, 2023-by Redfang</p>
+                                <p class="resource__card-title">People Are Now
+                                    Shipping With Joy</p>
+                                <p class="resource__card-date">January 5th,
+                                    2023-by Redfang</p>
                             </div>
                         </div>
                         <!-- /Resource -->
                     </div>
                 </div>
-                <button>View All Blogs</button>
+                <button class="btn btn-secondary btn-resources">View All Blogs</button>
             </section>
             <!-- /Resources -->
         </main>
         <!-- Main /Content -->
 
         <!-- Footer -->
-        <footer class="bg-primary">
-            <div class="d-flex">
+        <footer class="footer bg-primary">
+            <div class="d-flex justify-content-between align-content-start">
                 <!-- NewsLetter -->
-                <div>
-                    <span>NEWSLETTER</span>
-                    <p> get the latest about us and sign up to get 10% off today
+                <div class="newsletter">
+                    <h4 class="newsletter__title">NEWSLETTER</h4>
+                    <p class="newsletter__description"> get the latest about us
+                        and sign up to get 10% off today
                         never miss a single
                         promo or future updates.</p>
-                    <input type="email" name id
-                        placeholder="Enter email address">
-                    <button>Subscribe</button>
+                    <div class="newsletter__form d-flex flex-column">
+                        <input type="email" class="newsletter__form-input"
+                            placeholder="Enter email address">
+                        <button
+                            class="btn btn-primary btn-subscribe border-secondary text-uppercase">Subscribe</button>
+                    </div>
                 </div>
                 <!-- /NewsLetter -->
                 <!-- Cargo Support -->
-                <div>
-                    <span>Cargo Support</span>
-                    <a href>Marketing</a>
-                    <a href>Camping</a>
-                    <a href>Brading</a>
-                    <a href>Offline</a>
+                <div class="footer__link">
+                    <h4 class="footer__link-header">Cargo Support</h4>
+                    <ul class="navbar-nav d-flex flex-col">
+                        <li class="nav-item">
+                            <a
+                                class="nav-link text-secondary footer__link-title"
+                                aria-current="page"
+                                href="#">Marketing</a>
+                        </li>
+                        <li class="nav-item">
+                            <a
+                                class="nav-link text-secondary footer__link-title"
+                                aria-current="page"
+                                href="#">Camping</a>
+                        </li>
+                        <li class="nav-item">
+                            <a
+                                class="nav-link text-secondary footer__link-title"
+                                aria-current="page"
+                                href="#">Branding</a>
+                        </li>
+                        <li class="nav-item">
+                            <a
+                                class="nav-link text-secondary footer__link-title"
+                                aria-current="page"
+                                href="#">Offline</a>
+                        </li>
+                    </ul>
                 </div>
                 <!-- /Cargo Support -->
                 <!-- Terms -->
-                <div>
-                    <span>Terms</span>
-                    <a href>Platform</a>
-                    <a href>Privacy Policy</a>
-                    <a href>Security</a>
-                    <a href>Delivery Providers</a>
+                <div class="footer__link">
+                    <h4 class="footer__link-header">Terms</h4>
+                    <ul class="navbar-nav d-flex flex-column">
+                        <li class="nav-item">
+                            <a
+                                class="nav-link text-secondary footer__link-title"
+                                aria-current="page"
+                                href="#">Platform</a>
+                        </li>
+                        <li class="nav-item">
+                            <a
+                                class="nav-link text-secondary footer__link-title"
+                                aria-current="page"
+                                href="#">Privacy Policy</a>
+                        </li>
+                        <li class="nav-item">
+                            <a
+                                class="nav-link text-secondary footer__link-title"
+                                aria-current="page"
+                                href="#">Security</a>
+                        </li>
+                        <li class="nav-item">
+                            <a
+                                class="nav-link text-secondary footer__link-title"
+                                aria-current="page"
+                                href="#">Delivery Providers</a>
+                        </li>
+                    </div>
+                    <!-- /Terms -->
+                    <button class="btn btn-secondary btn-get-started">Get
+                        Started</button>
                 </div>
-                <!-- /Terms -->
-                <button>Get Started</button>
-            </div>
-            <!-- Social Links -->
-            <div>
-                <span>Seative Digital &copy; 2022 Al Rights Reserved</span>
+                <!-- Social Links -->
                 <div>
-                    <a href>T</a>
-                    <a href>P</a>
-                    <a href>L</a>
+                    <span>Seative Digital &copy; 2022 Al Rights Reserved</span>
+                    <div>
+                        <a href>T</a>
+                        <a href>P</a>
+                        <a href>L</a>
+                    </div>
                 </div>
-            </div>
-            <!-- /Social Links -->
-        </footer>
-        <!-- /Footer -->
-    </body>
-</html>
+                <!-- /Social Links -->
+            </footer>
+            <!-- /Footer -->
+        </body>
+    </html>
