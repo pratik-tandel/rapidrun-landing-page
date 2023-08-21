@@ -1,6 +1,8 @@
 .btn {
+    position: relative;
     width: 15rem;
     height: 5rem;
+    z-index: 20;
 }
 
 .btn-get-started {
@@ -14,4 +16,24 @@
 .btn-search {
     align-self: flex-end;
     font-weight: $font-weight-semibold;
+}
+
+.shadow-wrapper {
+    position: relative;
+} 
+
+.shadow {
+    position: absolute;
+    width: 15rem;
+    height: 5rem;
+    z-index: 1;
+    background-color: $primary;
+    border: 1px solid $secondary;
+    border-radius: 4px;
+    top: 8px;
+    right: 6px;
+
+    &-white {
+        background-color: $white;
+    }
 }

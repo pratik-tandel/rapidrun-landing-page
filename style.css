@@ -8,7 +8,9 @@
 /*******************************
 => config Bootstrap styling
 *******************************/
-* {
+*,
+*::before,
+*::after {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -11571,8 +11573,10 @@ textarea.form-control-lg {
   }
 }
 .btn {
+  position: relative;
   width: 15rem;
   height: 5rem;
+  z-index: 20;
 }
 
 .btn-get-started {
@@ -11586,6 +11590,25 @@ textarea.form-control-lg {
 .btn-search {
   align-self: flex-end;
   font-weight: 500;
+}
+
+.shadow-wrapper {
+  position: relative;
+}
+
+.shadow {
+  position: absolute;
+  width: 15rem;
+  height: 5rem;
+  z-index: 1;
+  background-color: #ffce33;
+  border: 1px solid #131721;
+  border-radius: 4px;
+  top: 8px;
+  right: 6px;
+}
+.shadow-white {
+  background-color: #ffffff;
 }
 
 .card {
