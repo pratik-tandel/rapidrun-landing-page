@@ -1,5 +1,5 @@
 .footer {
-    padding: 6rem 6rem 0 6rem;
+    padding: 6rem 6rem 3rem 6rem;
 }
 
 .newsletter {
@@ -38,13 +38,23 @@
 
 .footer__link {
     &-header {
-        font-weight: $font-weight-bold;
-        font-size: $font-size-base;
-        padding-bottom: 2rem;
+        font-weight: $font-weight-semibold;
+        font-size: 2rem;
+        padding-bottom: 3rem;
     }
 
     &-title {
-        font-weight: $font-weight-normal;
+        font-weight: $font-weight-semibold;
         font-size: $font-size-base;
     }
+}
+
+.copyright-text {
+    font-size: $font-size-xs;
+}
+
+.footer__social-wrapper {
+    border: 1px solid $secondary;
+    border-radius: 50%;
+    padding: 0.3rem 0.9rem;
 }

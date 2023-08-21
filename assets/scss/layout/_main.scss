@@ -85,6 +85,25 @@
     padding-bottom: 5rem;
 }
 
+.intro-video__stats-wrapper {
+    border: 1px solid $secondary;
+    position: absolute;
+    padding: 1rem;
+    top: 0.5rem;
+    right: 4.2rem;
+    text-align: center;
+    width: 24rem;
+}
+
+.plus-sign {
+    font-size: 3rem;
+    padding-top: 1rem;
+}
+
+.intro-video-section {
+    position: relative;
+}
+
 .intro-video {
     &__heading {
         width: 40rem;
@@ -95,6 +114,21 @@
     &__player {
         height: 60rem;
         padding-bottom: 10rem;
+    }
+
+    &__stats {
+        background-color: $primary;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+
+        &-count {
+            font-size: 7rem;
+            font-weight: $font-weight-medium;
+        }
+
+        &-description {
+            text-align: center;
+        }
     }
 }
 

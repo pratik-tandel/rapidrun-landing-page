@@ -11651,6 +11651,12 @@ textarea.form-control-lg {
   font-weight: 700;
   margin-bottom: 0;
 }
+.resource__card-icon-wrapper {
+  background-color: #ffce33;
+  border-radius: 50%;
+  padding: 0.6rem 1rem;
+  text-align: center;
+}
 
 .form-title {
   font-size: 2rem;
@@ -11779,6 +11785,25 @@ textarea.form-control-lg {
   padding-bottom: 5rem;
 }
 
+.intro-video__stats-wrapper {
+  border: 1px solid #131721;
+  position: absolute;
+  padding: 1rem;
+  top: 0.5rem;
+  right: 4.2rem;
+  text-align: center;
+  width: 24rem;
+}
+
+.plus-sign {
+  font-size: 3rem;
+  padding-top: 1rem;
+}
+
+.intro-video-section {
+  position: relative;
+}
+
 .intro-video__heading {
   width: 40rem;
   font-size: 4rem;
@@ -11787,6 +11812,18 @@ textarea.form-control-lg {
 .intro-video__player {
   height: 60rem;
   padding-bottom: 10rem;
+}
+.intro-video__stats {
+  background-color: #ffce33;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.intro-video__stats-count {
+  font-size: 7rem;
+  font-weight: 600;
+}
+.intro-video__stats-description {
+  text-align: center;
 }
 
 .achievements {
@@ -11804,7 +11841,7 @@ textarea.form-control-lg {
 }
 
 .footer {
-  padding: 6rem 6rem 0 6rem;
+  padding: 6rem 6rem 3rem 6rem;
 }
 
 .newsletter {
@@ -11836,13 +11873,23 @@ textarea.form-control-lg {
 }
 
 .footer__link-header {
-  font-weight: 700;
-  font-size: 1.6rem;
-  padding-bottom: 2rem;
+  font-weight: 500;
+  font-size: 2rem;
+  padding-bottom: 3rem;
 }
 .footer__link-title {
-  font-weight: 400;
+  font-weight: 500;
   font-size: 1.6rem;
+}
+
+.copyright-text {
+  font-size: 1.2rem;
+}
+
+.footer__social-wrapper {
+  border: 1px solid #131721;
+  border-radius: 50%;
+  padding: 0.3rem 0.9rem;
 }
 
 /*# sourceMappingURL=style.css.map */
