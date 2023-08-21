@@ -1,8 +1,9 @@
 .intro-section {
     padding: 1rem 6rem;
+    // margin-bottom: 10rem;
     background-image: url('./assets/img/plane.png');
     background-size: cover;
-    height: 50rem;
+    height: 60rem;
 }
 
 .intro {
@@ -20,6 +21,13 @@
 
 .logistic-solution-section {
     padding: 1rem 6rem;
+    position: relative;
+}
+
+.product-form__wrapper {
+    position: absolute;
+    top: -10rem;
+    padding: 3rem;
 }
 
 .features {
@@ -27,7 +35,7 @@
 }
 
 .solutions-intro {
-    padding-top: 20rem;
+    padding-top: 17rem;
     padding-bottom: 5rem;
 
     &__title {

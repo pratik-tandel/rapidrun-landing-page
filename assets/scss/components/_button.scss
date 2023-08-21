@@ -1,20 +1,17 @@
-.btn-get-started {
-    margin-left: 70px;
+.btn {
     width: 15rem;
     height: 5rem;
 }
 
-.btn-platform {
-    height: 5rem;
+.btn-get-started {
+    margin-left: 70px;
 }
 
 .btn-resources {
-    height: 5rem;
-    width: 15rem;
     align-self: center;
 }
 
-.btn-subscribe {
-    height: 5rem;
-    width: 15rem;
+.btn-search {
+    align-self: flex-end;
+    font-weight: $font-weight-semibold;
 }

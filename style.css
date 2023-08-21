@@ -11570,25 +11570,22 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-.btn-get-started {
-  margin-left: 70px;
+.btn {
   width: 15rem;
   height: 5rem;
 }
 
-.btn-platform {
-  height: 5rem;
+.btn-get-started {
+  margin-left: 70px;
 }
 
 .btn-resources {
-  height: 5rem;
-  width: 15rem;
   align-self: center;
 }
 
-.btn-subscribe {
-  height: 5rem;
-  width: 15rem;
+.btn-search {
+  align-self: flex-end;
+  font-weight: 500;
 }
 
 .card {
@@ -11655,6 +11652,21 @@ textarea.form-control-lg {
   margin-bottom: 0;
 }
 
+.form-title {
+  font-size: 2rem;
+  font-weight: 400;
+}
+.form-label {
+  padding-bottom: 1rem;
+}
+.form-select {
+  width: 28rem;
+  height: 5rem;
+  background-color: #131721;
+  color: #ffffff;
+  border-color: gray;
+}
+
 @font-face {
   font-family: "Roboto Thin";
   src: url("../../fonts/Roboto-Thin.ttf") format("TrueType");
@@ -11692,7 +11704,7 @@ textarea.form-control-lg {
   padding: 1rem 6rem;
   background-image: url("./assets/img/plane.png");
   background-size: cover;
-  height: 50rem;
+  height: 60rem;
 }
 
 .intro {
@@ -11708,6 +11720,13 @@ textarea.form-control-lg {
 
 .logistic-solution-section {
   padding: 1rem 6rem;
+  position: relative;
+}
+
+.product-form__wrapper {
+  position: absolute;
+  top: -10rem;
+  padding: 3rem;
 }
 
 .features {
@@ -11715,7 +11734,7 @@ textarea.form-control-lg {
 }
 
 .solutions-intro {
-  padding-top: 20rem;
+  padding-top: 17rem;
   padding-bottom: 5rem;
 }
 .solutions-intro__title {

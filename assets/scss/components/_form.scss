@@ -1,0 +1,19 @@
+.form {
+    &-title {
+        font-size: 2rem;
+        font-weight: $font-weight-normal;
+    }
+
+    &-label {
+        padding-bottom: 1rem;
+    }
+
+
+    &-select {
+        width: 28rem;
+        height: 5rem;
+        background-color: $secondary;
+        color: $white;
+        border-color: gray;
+    }
+}
