@@ -11706,6 +11706,10 @@ textarea.form-control-lg {
   font-size: 1.6rem;
 }
 
+.wrapper {
+  min-width: 120rem;
+}
+
 .intro-section {
   padding: 1rem 6rem;
   background-image: url("./assets/img/plane.png");
