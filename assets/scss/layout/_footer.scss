@@ -19,6 +19,11 @@
         @media (max-width: 1000px) {
             font-size: ($font-size-lg * 3);
         }
+
+        @media (max-width: 992px) {
+            font-size: ($font-size-lg * 2);
+        }
+
     }
 
     &__description {
@@ -27,11 +32,7 @@
         padding-bottom: 2rem;
 
         @media (max-width: 1120px) {
-            width: 38rem;
-        }
-
-        @media (max-width: 1000px) {
-            width: 35rem;
+            width: 95%;
         }
     }
 
@@ -50,11 +51,7 @@
             }
 
             @media (max-width: 1120px) {
-                width: 38rem;
-            }
-
-            @media (max-width: 1020px) {
-                width: 36rem;
+                width: 95%;
             }
         }
     }

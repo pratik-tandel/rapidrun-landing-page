@@ -19,6 +19,10 @@
     background-image: url('./assets/img/plane.png');
     background-size: cover;
     height: 60rem;
+
+    @media (max-width: 992px) {
+        height: 48rem;
+    }
 }
 
 .intro {
@@ -26,11 +30,19 @@
 
     &__title {
         font-size: 9rem;
+
+        @media (max-width: 820px) {
+            font-size: 8rem;
+        }
     }
 
     &__description {
         font-size: 2rem;
         text-align: start;
+    }
+
+    @media (max-width: 820px) {
+        max-width: 50rem;
     }
 }
 
@@ -52,25 +64,54 @@
     @media (max-width: 1220px) {
         min-width: 95rem;
     }
+
+    @media (max-width: 992px) {
+        position: initial;
+        min-width: 78rem;
+        margin-top: 5rem;
+    }
+
+    @media (max-width: 820px) {
+        min-width: 70rem;
+    }
 }
 
 .features {
     padding-bottom: 10rem;
+
+    @media (max-width: 992px) {
+        flex-direction: column;
+    }
+
 }
 
 .solutions-intro {
+    flex-direction: row;
     padding-top: 17rem;
     padding-bottom: 5rem;
 
     &__title {
         width: 50rem;
         font-size: 4rem;
+
+        @media (max-width: 992px) {
+            width: 100%;
+        }
     }
 
     &__description {
         width: 47rem;
         font-size: 2rem;
         text-align: start;
+
+        @media (max-width: 992px) {
+            width: 100%;
+        }
+    }
+
+    @media (max-width: 992px) {
+        padding-top: 8rem;
+        flex-direction: column;
     }
 }
 
@@ -81,32 +122,6 @@
 
 .platform__heading {
     width: 35rem;
-}
-
-.resource-section {
-    padding: 1rem 6rem;
-    padding-bottom: 8rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-
-    &__intro {
-        padding-bottom: 2rem;
-    }
-
-    &__title {
-        width: 40rem;
-        font-size: 4rem;
-    }
-
-    &__description {
-        width: 36rem;
-        text-align: start;
-    }
-}
-
-.resources {
-    padding-bottom: 5rem;
 }
 
 .intro-video__stats-wrapper {
@@ -169,6 +184,11 @@
         margin: 0 15rem;
         height: 35rem;
         width: 50rem;
+
+        @media (max-width: 992px) {
+            height: 30rem;
+            width: 20rem;
+        }
     }
 
     &-stats {
@@ -176,4 +196,42 @@
             width: 70rem;
         }
     }
+}
+
+.resource-section {
+    padding: 1rem 6rem;
+    padding-bottom: 8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    &__intro {
+        padding-bottom: 2rem;
+
+        @media (max-width: 992px) {
+            flex-direction: column;
+        }
+    }
+
+    &__title {
+        width: 40rem;
+        font-size: 4rem;
+
+        @media (max-width: 992px) {
+            width: 100%;
+        }
+    }
+
+    &__description {
+        width: 36rem;
+        text-align: start;
+
+        @media (max-width: 992px) {
+            width: 100%;
+        }
+    }
+}
+
+.resources {
+    padding-bottom: 5rem;
 }
