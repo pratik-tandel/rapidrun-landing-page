@@ -11666,7 +11666,6 @@ textarea.form-control-lg {
   padding: 1rem;
 }
 .resource__card-img {
-  width: 67rem;
   padding-bottom: 1rem;
 }
 .resource__card-title {
@@ -11689,11 +11688,16 @@ textarea.form-control-lg {
   padding-bottom: 1rem;
 }
 .form-select {
-  width: 28rem;
+  width: 100%;
   height: 5rem;
   background-color: #131721;
   color: #ffffff;
   border-color: gray;
+}
+@media (max-width: 576px) {
+  .form {
+    flex-direction: row;
+  }
 }
 
 @font-face {
@@ -11732,6 +11736,21 @@ textarea.form-control-lg {
 .wrapper {
   min-width: 120rem;
 }
+@media (max-width: 1220px) {
+  .wrapper {
+    min-width: 110rem;
+  }
+}
+@media (max-width: 1120px) {
+  .wrapper {
+    min-width: 90rem;
+  }
+}
+@media (max-width: 1000px) {
+  .wrapper {
+    min-width: 65rem;
+  }
+}
 
 .intro-section {
   padding: 1rem 6rem;
@@ -11757,9 +11776,20 @@ textarea.form-control-lg {
 }
 
 .product-form__wrapper {
+  min-width: 140rem;
   position: absolute;
   top: -10rem;
   padding: 3rem;
+}
+@media (max-width: 1400px) {
+  .product-form__wrapper {
+    min-width: 120rem;
+  }
+}
+@media (max-width: 1220px) {
+  .product-form__wrapper {
+    min-width: 95rem;
+  }
 }
 
 .features {
@@ -11866,6 +11896,11 @@ textarea.form-control-lg {
   height: 35rem;
   width: 50rem;
 }
+@media (max-width: 1120px) {
+  .achievements-stats {
+    width: 70rem;
+  }
+}
 
 .footer {
   padding: 6rem 6rem 3rem 6rem;
@@ -11881,10 +11916,30 @@ textarea.form-control-lg {
   padding-bottom: 3rem;
   margin-top: -1rem;
 }
+@media (max-width: 1120px) {
+  .newsletter__title {
+    font-size: 6.3rem;
+  }
+}
+@media (max-width: 1000px) {
+  .newsletter__title {
+    font-size: 5.4rem;
+  }
+}
 .newsletter__description {
   width: 43rem;
   font-size: 1.2rem;
   padding-bottom: 2rem;
+}
+@media (max-width: 1120px) {
+  .newsletter__description {
+    width: 38rem;
+  }
+}
+@media (max-width: 1000px) {
+  .newsletter__description {
+    width: 35rem;
+  }
 }
 .newsletter__form-input {
   background-color: #ffce33;
@@ -11897,6 +11952,31 @@ textarea.form-control-lg {
 }
 .newsletter__form-input::placeholder {
   color: #131721;
+}
+@media (max-width: 1120px) {
+  .newsletter__form-input {
+    width: 38rem;
+  }
+}
+@media (max-width: 1020px) {
+  .newsletter__form-input {
+    width: 36rem;
+  }
+}
+@media (max-width: 1220px) {
+  .newsletter {
+    width: 40rem;
+  }
+}
+@media (max-width: 1120px) {
+  .newsletter {
+    min-width: 26rem;
+  }
+}
+@media (max-width: 1020px) {
+  .newsletter {
+    min-width: 18rem;
+  }
 }
 
 .footer__link-header {
