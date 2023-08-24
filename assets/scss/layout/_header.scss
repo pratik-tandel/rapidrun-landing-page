@@ -45,8 +45,8 @@
 .mobile-navigation {
     display: none;
     position: absolute;
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
     left: -150rem;
     transition: 1s ease-in all;
     z-index: 1000;
