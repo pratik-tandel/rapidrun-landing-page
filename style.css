@@ -11752,6 +11752,7 @@ textarea.form-control-lg {
 
 .header {
   padding: 1rem 6rem;
+  position: relative;
 }
 
 @media (max-width: 900px) {
@@ -11768,7 +11769,6 @@ textarea.form-control-lg {
   height: 4rem;
 }
 .mobile-nav__icon-wrapper {
-  color: #131721;
   padding-left: 6rem;
 }
 .mobile-nav__brand {
@@ -11790,6 +11790,34 @@ textarea.form-control-lg {
 .nav-link {
   font-weight: 700;
   font-size: 1.6rem;
+}
+
+.mobile-navigation {
+  display: none;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: -150rem;
+  transition: 1s ease-in all;
+  z-index: 1000;
+}
+@media (max-width: 900px) {
+  .mobile-navigation {
+    display: block;
+  }
+}
+
+.navigation__checkbox {
+  display: none;
+}
+
+.navigation__button {
+  display: block;
+  cursor: pointer;
+}
+
+.navigation__checkbox:checked ~ .mobile-navigation {
+  left: 0rem;
 }
 
 .wrapper {
