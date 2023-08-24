@@ -11754,6 +11754,35 @@ textarea.form-control-lg {
   padding: 1rem 6rem;
 }
 
+@media (max-width: 900px) {
+  .header > .navbar {
+    display: none !important;
+  }
+}
+
+.mobile-nav {
+  width: 100%;
+}
+.mobile-nav__icon {
+  width: 4rem;
+  height: 4rem;
+}
+.mobile-nav__icon-wrapper {
+  color: #131721;
+  padding-left: 6rem;
+}
+.mobile-nav__brand {
+  flex-grow: 1;
+  justify-content: center;
+}
+@media (max-width: 900px) {
+  .mobile-nav {
+    display: flex !important;
+    justify-content: space-around;
+    align-items: center;
+  }
+}
+
 .brand-logo {
   height: 4rem;
 }
@@ -12038,16 +12067,6 @@ textarea.form-control-lg {
   .resources {
     flex-direction: column;
     align-items: center;
-  }
-}
-
-@media (max-width: 670px) {
-  .intro-section,
-  .logistic-solution-section,
-  .platform-section,
-  .resource-section {
-    padding-left: 2rem;
-    padding-right: 2rem;
   }
 }
 
