@@ -1,5 +1,11 @@
 .footer {
     padding: 6rem 6rem 3rem 6rem;
+
+    &__news-and-links {
+        @media (max-width: 768px) {
+            flex-direction: column;
+        }
+    }
 }
 
 .newsletter {
@@ -23,7 +29,6 @@
         @media (max-width: 992px) {
             font-size: ($font-size-lg * 2);
         }
-
     }
 
     &__description {
@@ -67,6 +72,10 @@
     @media (max-width: 1020px) {
         min-width: 18rem;
     }
+
+    @media (max-width: 768px) {
+        padding-bottom: 4rem;
+    }
 }
 
 .footer__link {
@@ -74,16 +83,28 @@
         font-weight: $font-weight-semibold;
         font-size: 2rem;
         padding-bottom: 3rem;
+
+        @media (max-width: 768px) {
+            padding-bottom: 1rem;
+        }
     }
 
     &-title {
         font-weight: $font-weight-semibold;
         font-size: $font-size-base;
     }
+
+    @media (max-width: 768px) {
+        padding-bottom: 3rem;
+    }
 }
 
 .copyright-text {
     font-size: $font-size-xs;
+}
+
+.social-links {
+    padding-top: 1rem;
 }
 
 .footer__social-wrapper {

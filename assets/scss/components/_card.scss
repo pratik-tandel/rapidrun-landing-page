@@ -34,6 +34,14 @@
     &__title {
         font-weight: $font-weight-medium;
     }
+
+    &__wrapper {
+        flex-direction: column;
+
+        @media (max-width: 768px) {
+            flex-direction: row;
+        }
+    }
 }
 
 .countries__card {
@@ -51,6 +59,15 @@
         width: 6rem;
         height: 6rem;
         border-radius: 50%;
+
+        @media (max-width: 768px) {
+            height: 12rem;
+            width: 12rem;
+        }
+    }
+
+    @media (max-width: 768px) {
+        width: 80%;
     }
 }
 
